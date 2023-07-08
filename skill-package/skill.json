@@ -3,7 +3,7 @@
     "publishingInformation": {
       "locales": {
         "en-US": {
-          "summary": "Alexa with ChatGPT Queries",
+          "summary": "Alexa with ChatGPT Support",
           "examplePhrases": [
             "Alexa open ai",
             "Generate a list of unique names for a pet horse with a red mane",
@@ -13,17 +13,18 @@
           "description": "Integrates Alexa with ChatGPT for speech driven AI queries",
           "keywords": [
             "ChatGPT",
-            "AI",
-            "Slack"
+            "AI"
           ],
           "smallIconUri": "file://assets/smallIcon.png",
           "largeIconUri": "file://assets/largeIcon.png"
         }
       },
       "isAvailableWorldwide": true,
-      "distributionMode": "PRIVATE",
       "testingInstructions": "Sample Testing Instructions.",
       "distributionCountries": []
+    },
+    "apis": {
+      "custom": {}
     },
     "manifestVersion": "1.0"
   }

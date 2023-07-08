@@ -15,9 +15,10 @@
         "userConfig": {
           "runtime": "python3.9",
           "handler": "chatgpt.handler",
-          "awsRegion": "eu-west-1"
+          "templatePath": "./infrastructure/cfn-deployer/skill-stack.yaml",
+          "awsRegion": "us-east-1"
         },
-        "type": "@ask-cli/lambda-deployer"
+        "type": "@ask-cli/cfn-deployer"
       }
     }
   }
