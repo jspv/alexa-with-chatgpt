@@ -9,3 +9,5 @@ ask-states.json
 .ask-config
 .idea
 venv
+/.vscode
+/infrastructure
